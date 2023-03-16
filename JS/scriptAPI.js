@@ -1,4 +1,4 @@
-const api = "https://breakingbadapi.com/api/characters";
+const api = "https://breakingbadapi.com/api/characters?limit=28";
 
 async function get(){
     const response = await fetch(api);
