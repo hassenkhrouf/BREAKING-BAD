@@ -1,5 +1,4 @@
 const api = "https://breakingbadapi.com/api/characters";
- 
 
 async function get(){
     const response = await fetch(api);
